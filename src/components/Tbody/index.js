@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import EmployeesContext from '../../context/EmployeesContext';
 import { ContainerBody } from './styles';
 
 function Tbody() {
+  const { employees } = useContext(EmployeesContext)
   return (
     <ContainerBody>
-      <tr>
-        <td><img src="https://avatars.githubusercontent.com/u/52717632?v=4" /></td>
-        <td><p>Anderson Silva</p></td>
-        <td><p>Front-End</p></td>
-        <td><p>01/11/2021</p></td>
-        <td><p>+55 (92) 98503-8069</p></td>
-      </tr>
+      {employees && employees.map((employee) => (
+        <tr key={employee.id} >
+          <td><img src={employee.image} alt={employee.name} /></td>
+          <td><p>{employee.name}</p></td>
+          <td><p>{employee.job}</p></td>
+          <td><p>{employee.admission_date}</p></td>
+          <td><p>{employee.phone}</p></td>
+        </tr>
+      ))}
     </ContainerBody>
   );
 }

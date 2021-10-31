@@ -1,4 +1,4 @@
-export const getAll = async () => {
+/* export const getAll = async () => {
   const url = 'http://localhost:3000/employess';
 
   try {
@@ -8,7 +8,7 @@ export const getAll = async () => {
   } catch (err) {
     console.log(err);
   }
-};
+}; */
 
 export const searchEmployee = async (value) => {
   const url = `http://localhost:3000/employess?q=${value}`;
