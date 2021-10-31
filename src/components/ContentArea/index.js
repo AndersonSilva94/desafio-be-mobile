@@ -1,4 +1,5 @@
 import React from 'react';
+import Table from '../Table';
 import { Container, InputSearch, SectionSearch, Title } from './styles';
 
 function ContentArea() {
@@ -8,6 +9,7 @@ function ContentArea() {
         <Title>Funcionários</Title>
         <InputSearch placeholder="Pesquisar" />
       </SectionSearch>
+      <Table />
     </Container>
   );
 }
