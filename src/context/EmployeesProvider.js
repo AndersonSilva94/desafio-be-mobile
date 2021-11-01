@@ -16,7 +16,7 @@ function EmployeesProvider({ children }) {
   }, [value])
 
   return (
-    <EmployeesContext.Provider value={{ employees }} >
+    <EmployeesContext.Provider value={{ employees, value, setValue }} >
       {children}
     </EmployeesContext.Provider>
   );
