@@ -1,7 +1,8 @@
 import React, { useContext } from 'react';
 import EmployeesContext from '../../context/EmployeesContext';
 import Table from '../Table';
-import { Container, InputSearch, SectionSearch, Title } from './styles';
+import { Container, ImgSearch, InputSearch, SectionSearch, Title } from './styles';
+import Icon from '../../assets/Vector.svg';
 
 function ContentArea() {
   const { value, setValue } = useContext(EmployeesContext);
@@ -15,6 +16,7 @@ function ContentArea() {
           value={value}
           onChange={(e) => setValue(e.target.value)}
         />
+        <ImgSearch src={Icon} />
       </SectionSearch>
       <Table />
     </Container>

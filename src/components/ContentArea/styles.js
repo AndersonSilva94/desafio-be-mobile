@@ -17,6 +17,7 @@ export const SectionSearch = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
+    position: relative;
   `}
 `
 
@@ -35,3 +36,13 @@ export const InputSearch = styled.input`
     border-radius: 4px;
   `}
 `
+
+export const ImgSearch = styled.img`
+  ${() => css`
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    width: 24px;
+    height: 24px;
+  `}
+`;
