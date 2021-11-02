@@ -27,7 +27,7 @@ Ter instalado em sua máquina as seguintes ferramentas:
 ## Para rodar o projeto localmente:
 1. Clone o repositório
   ```bash
-    $ git clone git@github.com:AndersonSilva94/desafio-be-mobile.git
+    $ git clone https://github.com/AndersonSilva94/desafio-be-mobile.git
   ```
   * Entre na pasta do repositório que você acabou de clonar:
   ```bash
