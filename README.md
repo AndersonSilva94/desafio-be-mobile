@@ -1,6 +1,13 @@
 # Desafio Be Mobile (Front-End)
 
-## Projeto desenvolvido durante o processo seletivo da Be Mobile
+![GitHub repo size](https://img.shields.io/github/repo-size/AndersonSilva94/desafio-be-mobile?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/AndersonSilva94/desafio-be-mobile?style=for-the-badge)
+
+### Projeto desenvolvido durante o processo seletivo da Be Mobile
+
+![Captura de tela de 2021-11-01 23-48-30](https://user-images.githubusercontent.com/52717632/139784598-2bcd450e-5351-4435-9e0e-93578b9a33da.jpg)
+
+> A aplicação consiste na criação de uma tabela de funcionários, os dados chegarão por uma api simulada escrita em json-server. Também é possível pesquisar por nome ou cargo através de um input
 
 ## Tecnologias utilizadas na construção do projeto
 - React
@@ -8,15 +15,19 @@
 - React Hooks
 - Styled Components
 - Json-server
+- React-switch
 
 ## Pré-requisitos
 Ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Yarn](https://yarnpkg.com/).
+
+* [Git](https://git-scm.com), 
+* [Node.js](https://nodejs.org/en/),
+* [Yarn](https://yarnpkg.com/).
 
 ## Para rodar o projeto localmente:
 1. Clone o repositório
   ```bash
-  $ git clone git@github.com:AndersonSilva94/desafio-be-mobile.git
+    $ git clone git@github.com:AndersonSilva94/desafio-be-mobile.git
   ```
   * Entre na pasta do repositório que você acabou de clonar:
   ```bash
@@ -30,31 +41,15 @@ Ter instalado em sua máquina as seguintes ferramentas:
 
 3. Execute o json-server
   ```bash
-    $ yarn json-server --watch server.json
+    $ yarn json-server --watch db.json
   ```
 
-4. Em um novo terminal, rode a aplicação (Será perguntado se poderá rodar em outra porta, bats digitar 'y' ou 'yes')
+4. Em um novo terminal, rode a aplicação (Será perguntado se poderá rodar em outra porta, bast digitar `y` ou `yes`)
   ```bash
     $ yarn start
   ```
 
-## Objetivos
-Avaliar os seguintes itens, em ordem de relevância:
-
-1. Lógica de programação
-2. Organização (código e arquivos)
-3. CSS
-4. README, deve conter pelo menos as seguitnes informações: Sobre, Pré-requisitos, Rodando a aplicação.
-
-## Descrição do projeto
-Nesse teste, deve-se montar uma tabela com as informações que virão por uma API simulada escrita em json-server. 
-Esta tabela deve conter as seguintes colunas: imagem, nome, cargo, data de admissão e telefone, 
-com todos os dados devidamente formatados e apresentados como está no figma. Além disso, 
-deve ter a possibilidade de realizar uma pesquisa na tabela por um input. Obs: para acessar o figma do projeto
-[clique aqui](https://www.figma.com/file/y9qJNNAckFRL7LNoyNjpv8/Teste---Be-mobile).
-
-## Regras
-Utilizar React ou Vanilla JS (JavaScript puro), sendo permitido utilizar libs externas, mas sem excesso para melhor avaliação.
+OBS: Você pode verificar o projeto em ação [aqui](https://desafio-be-mobile.netlify.app/)
 
 ---
 :keyboard: com :purple_heart: por [Anderson Silva (Andy)](https://www.linkedin.com/in/andssilva/) 😊
