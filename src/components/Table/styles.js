@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   ${() => css`
     width: 100%;
 
-    @media (max-width: 500px) {
+    @media (max-width: 768px) {
       overflow-x: scroll;
     }
   `}
