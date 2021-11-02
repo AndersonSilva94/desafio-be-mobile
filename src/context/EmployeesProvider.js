@@ -4,7 +4,7 @@ import EmployeesContext from './EmployeesContext';
 
 function EmployeesProvider({ children }) {
   const [value, setValue] = useState('')
-  const [employees, setEmployees] = useState();
+  const [employees, setEmployees] = useState([]);
 
   useEffect(() => {
     const getEmployees = async () => {

@@ -1,13 +1,13 @@
 import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
-  ${() => css`
+  ${({ theme }) => css`
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 0 2rem;
     height: 740px;
-    background: #F0F0F0;
+    background: ${theme.colors.background};
   `}
 `;
 
@@ -22,17 +22,18 @@ export const SectionSearch = styled.div`
 `
 
 export const Title = styled.h4`
-  ${() => css`
+  ${({ theme }) => css`
     font-size: 24px;
+    color: ${theme.colors.text};
   `}
 `
 
 export const InputSearch = styled.input`
-  ${() => css`
+  ${({ theme }) => css`
     width: 282px;
     height: 40px;
     padding: 0.5rem;
-    border: 1px solid #CDCDCD
+    border: 1px solid ${theme.colors.border}
     border-radius: 4px;
   `}
 `

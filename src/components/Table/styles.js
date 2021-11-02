@@ -1,12 +1,12 @@
 import styled, { css } from 'styled-components';
 
 export const Container = styled.table`
-  ${() => css`
+  ${({ theme }) => css`
     margin-top: 31px;
     border-collapse: collapse;
 
     tr {
-      border-bottom: solid #F0F0F0 1px;
+      border-bottom: solid ${theme.colors.background} 1px;
     }
   `}
 `;

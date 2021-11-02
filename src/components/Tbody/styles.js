@@ -1,15 +1,18 @@
 import styled, { css } from 'styled-components';
 
 export const ContainerBody = styled.tbody`
-  ${() => css`
+  ${({ theme }) => css`
     tr {
-      background: #FFF;
+      background: ${theme.colors.tbody};
       height: 49px;
-      border-top: 1px solid #CDCDCD;
+      border-top: 1px solid ${theme.colors.border};
 
       td {
         text-align: center;
+        color: ${theme.colors.text};
+
         img {
+          vertical-align: middle;
           width: 34px;
           height: 34px;
           border-radius: 50%;
