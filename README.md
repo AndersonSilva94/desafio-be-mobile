@@ -3,11 +3,13 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndersonSilva94/desafio-be-mobile?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/AndersonSilva94/desafio-be-mobile?style=for-the-badge)
 
-### Projeto desenvolvido durante o processo seletivo da Be Mobile
+- Projeto desenvolvido durante o processo seletivo da Be Mobile
 
-![Captura de tela de 2021-11-01 23-48-30](https://user-images.githubusercontent.com/52717632/139784598-2bcd450e-5351-4435-9e0e-93578b9a33da.jpg)
+## Sobre
 
-> A aplicação consiste na criação de uma tabela de funcionários, os dados chegarão por uma api simulada escrita em json-server. Também é possível pesquisar por nome ou cargo através de um input
+![Captura de tela de 2021-11-02 10-14-39](https://user-images.githubusercontent.com/52717632/139864845-1574b839-c107-423d-b981-100ba512b037.png)
+
+> A aplicação consiste na criação de uma tabela de funcionários, os dados chegarão por uma api simulada escrita em json-server. Também é possível pesquisar por nome ou cargo através de um input.
 
 ## Tecnologias utilizadas na construção do projeto
 - React
