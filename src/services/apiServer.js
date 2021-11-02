@@ -1,7 +1,7 @@
 import { filterValue } from '../utils/filterValue';
 
 export const searchEmployee = async (value) => {
-  const url = 'http://localhost:3000/employess';
+  const url = process.env.REACT_APP_API_URL || 'http://localhost:3000/employess';
 
   try {
     const fetchAll = await fetch(url);
