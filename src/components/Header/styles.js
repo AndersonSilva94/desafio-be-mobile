@@ -13,4 +13,13 @@ export const HeaderContainer = styled.header`
 
 export const LogoImg = styled.img`
   ${() => css``}
-`
+`;
+
+export const IconsImg = styled.img`
+  ${() => css`
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+  `}
+`;
