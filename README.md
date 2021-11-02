@@ -44,7 +44,7 @@ Ter instalado em sua máquina as seguintes ferramentas:
     $ yarn json-server --watch db.json
   ```
 
-4. Em um novo terminal, rode a aplicação (Será perguntado se poderá rodar em outra porta, bast digitar `y` ou `yes`)
+4. Em um novo terminal, rode a aplicação (Será perguntado se poderá rodar em outra porta, basta digitar `y` ou `yes`)
   ```bash
     $ yarn start
   ```
